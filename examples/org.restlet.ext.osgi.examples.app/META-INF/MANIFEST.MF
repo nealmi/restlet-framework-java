@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet Extension for OSGi Environments - Example App
+Bundle-SymbolicName: org.restlet.ext.osgi.examples.app
+Bundle-Version: 0.5.1.qualifier
+Bundle-Vendor: Noelios Technologies
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.restlet,
+ org.restlet.ext.osgi,
+ org.restlet.resource
+Service-Component: OSGI-INF/application.xml, OSGI-INF/hello.xml, OSGI-INF/router.xml

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.restlet.ext.osgi.di.eclipse.junit' version='0.5.1.201111210347' singleton='false'>
+    <update id='org.restlet.ext.osgi.di.eclipse.junit' range='[0.0.0,0.5.1.201111210347)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Restlet Extension for OSGi Environments - DI JUnit'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Noelios Technologies'/>
+      <property name='maven-groupId' value='restlet-osgi'/>
+      <property name='maven-artifactId' value='org.restlet.ext.osgi.di.eclipse.junit'/>
+      <property name='maven-version' value='0.5.1-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.restlet.ext.osgi.di.eclipse.junit' version='0.5.1.201111210347'/>
+      <provided namespace='osgi.bundle' name='org.restlet.ext.osgi.di.eclipse.junit' version='0.5.1.201111210347'/>
+      <provided namespace='java.package' name='org.restlet.ext.osgi.di.junit.tests' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='16'>
+      <required namespace='osgi.bundle' name='org.hamcrest.core' range='1.1.0'/>
+      <required namespace='java.package' name='javax.inject' range='1.0.0'/>
+      <required namespace='java.package' name='org.eclipse.e4.core.contexts' range='0.0.0'/>
+      <required namespace='java.package' name='org.junit' range='4.8.1'/>
+      <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.service.http' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.service.log' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.util.tracker' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.data' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.ext.osgi' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.ext.osgi.developer.junit' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.ext.osgi.di.eclipse' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.ext.osgi.servlet' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.representation' range='0.0.0'/>
+      <required namespace='java.package' name='org.restlet.resource' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.restlet.ext.osgi.di.eclipse.junit' version='0.5.1.201111210347'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.restlet.ext.osgi.di.eclipse.junit&#xA;Bundle-Version: 0.5.1.201111210347&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.restlet.ext.osgi.di.eclipse.junit.source' version='0.5.1.201111210347' singleton='false'>
+    <update id='org.restlet.ext.osgi.di.eclipse.junit.source' range='[0.0.0,0.5.1.201111210347)' severity='0'/>
+    <properties size='4'>
+      <property name='maven-groupId' value='restlet-osgi'/>
+      <property name='maven-artifactId' value='org.restlet.ext.osgi.di.eclipse.junit'/>
+      <property name='maven-version' value='0.5.1-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.restlet.ext.osgi.di.eclipse.junit.source' version='0.5.1.201111210347'/>
+      <provided namespace='osgi.bundle' name='org.restlet.ext.osgi.di.eclipse.junit.source' version='0.5.1.201111210347'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.restlet.ext.osgi.di.eclipse.junit.source' version='0.5.1.201111210347'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.restlet.ext.osgi.di.eclipse.junit.source&#xA;Bundle-Version: 0.5.1.201111210347&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

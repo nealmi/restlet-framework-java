@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet Extension for OSGi Environments - Example Resource
+Bundle-SymbolicName: org.restlet.ext.osgi.examples.resource
+Bundle-Version: 0.5.1.qualifier
+Bundle-Vendor: Noelios Technologies
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.restlet,
+ org.restlet.ext.osgi,
+ org.restlet.resource
+Service-Component: OSGI-INF/example.xml

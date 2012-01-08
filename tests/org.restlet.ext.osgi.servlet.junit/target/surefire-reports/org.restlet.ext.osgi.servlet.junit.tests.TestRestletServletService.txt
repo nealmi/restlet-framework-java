@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.406 sec
+testHttpServiceApplication(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.184 sec
+testApplicationHttpService(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.023 sec
+testUnbindApplication(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.014 sec
+testUnbindHttpService(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.011 sec
+testUnbindRebindHttpService(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.03 sec
+testDuplicateApplication(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.017 sec
+testResourceWithMultiplePaths(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.037 sec
+testPassingFilterRouter(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.015 sec
+testBlockingFilterRouter(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.013 sec
+testFilterResource(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.027 sec
+testDirectory(org.restlet.ext.osgi.servlet.junit.tests.TestRestletServletService)  Time elapsed: 0.021 sec

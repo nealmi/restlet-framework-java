@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.restlet.ext.osgi.developer.junit' version='0.5.1.201111210347'>
+    <properties size='6'>
+      <property name='artifact.size' value='5278'/>
+      <property name='download.size' value='5278'/>
+      <property name='download.md5' value='56fa9adcae320315910b4cea61062015'/>
+      <property name='maven-groupId' value='restlet-osgi'/>
+      <property name='maven-artifactId' value='org.restlet.ext.osgi.developer.junit'/>
+      <property name='maven-version' value='0.5.1-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.restlet.ext.osgi.developer.junit.source' version='0.5.1.201111210347'>
+    <properties size='7'>
+      <property name='artifact.size' value='3160'/>
+      <property name='download.size' value='3160'/>
+      <property name='download.md5' value='6e9ef7f403edbef034d1430ff1a4aa7f'/>
+      <property name='maven-groupId' value='restlet-osgi'/>
+      <property name='maven-artifactId' value='org.restlet.ext.osgi.developer.junit'/>
+      <property name='maven-version' value='0.5.1-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet Extension for OSGi Environments - Dependency Injection
+Bundle-SymbolicName: org.restlet.ext.osgi.di.eclipse
+Bundle-Version: 0.5.1.qualifier
+Bundle-Activator: org.restlet.ext.osgi.internal.di.eclipse.bundle.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.e4.core.contexts,
+ org.eclipse.e4.core.di,
+ org.osgi.framework,
+ org.restlet,
+ org.restlet.resource
+Export-Package: org.restlet.ext.osgi.di.eclipse
+Bundle-Vendor: Noelios Technologies

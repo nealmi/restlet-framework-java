@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet Extension for OSGi Environments - WADL Dependency Injection
+Bundle-SymbolicName: org.restlet.ext.osgi.wadl.di.eclipse
+Bundle-Version: 0.5.1.qualifier
+Bundle-Vendor: Noelios Technologies
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.e4.core.contexts,
+ org.osgi.framework;version="1.6.0",
+ org.restlet.ext.osgi.di.eclipse,
+ org.restlet.ext.wadl,
+ org.restlet.resource
+Export-Package: org.restlet.ext.osgi.wadl.di.eclipse

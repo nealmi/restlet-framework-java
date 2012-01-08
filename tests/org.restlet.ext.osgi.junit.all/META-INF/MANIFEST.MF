@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Restlet Extension for OSGi Environments - All Junit Tests
+Bundle-SymbolicName: org.restlet.ext.osgi.junit.all
+Bundle-Version: 0.5.1.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.restlet.ext.osgi.servlet.junit;bundle-version="0.4.0",
+ org.restlet.ext.osgi.di.eclipse.junit;bundle-version="0.4.0",
+ org.junit;bundle-version="4.8.1"
+Bundle-Vendor: Restlet
